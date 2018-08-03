@@ -73,6 +73,7 @@ NOTE: These instructions assume that you've never installed PostgreSQL on your M
 If you have previously installed PostgreSQL using homebrew, MacPorts, the EnterpriseDB installer, consider [removing other PostgreSQL installations](documentation/remove.html) first.
 We also have [instructions for upgrading from older versions of Postgres.app](documentation/update.html).
 
+NOTE: Installing *pgloader* with homebrew, etc. may attempt to install PostgreSQL as a dependency. To install pgloader using homebrew without postres as a dependency, see [this issue](https://github.com/dimitri/pgloader/issues/588) on the [pgloader Github repository](https://github.com/dimitri/pgloader).
 
 Graphical Clients
 -----------------
